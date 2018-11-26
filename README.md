@@ -32,7 +32,7 @@ onActivityCreated(Bundle)
 当Activity的onCreate方法返回时调用
 
 onDestoryView()
-与onCreateView想对应，当该Fragment的视图被移除时调用
+与onCreateView相对应，当该Fragment的视图被移除时调用
 
 onDetach()
 与onAttach相对应，当Fragment与Activity关联被取消时调用
