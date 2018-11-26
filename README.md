@@ -8,10 +8,7 @@ Fragment必须是依存与Activity而存在的，因此Activity的生命周期�
 
 activity---------------------- fragment
 
-created------------------------onAttach()->
-															onCreate()->
-															onCreateView()->
-															onActivityCreated()
+created------------------------onAttach() -> onCreate() -> onCreateView() -> onActivityCreated()
 															
 started------------------------onStart()
 
@@ -21,6 +18,6 @@ paused-------------------------onPause()
 
 stoped-------------------------onStope()
 
-destoryed----------------------onDestoryView()->
-															onDestory()->
-															ondetach
+destoryed----------------------onDestoryView()->onDestory()->ondetach
+															
+															
