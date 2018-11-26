@@ -1,9 +1,8 @@
 # Fragment
-fragment 使用方法
 
 
 
-Fragment的生命周期
+### Fragment的生命周期
 Fragment必须是依存与Activity而存在的，因此Activity的生命周期会直接影响到Fragment的生命周期.
 
 activity---------------------- fragment
@@ -41,7 +40,7 @@ onDetach()
 
 
 
-Fragment的创建
+### Fragment的创建
 
 FragmentManager fm = getFragmentManager();
 
