@@ -39,4 +39,18 @@ onDetach()
 
 注意：除了onCreateView，其他的所有方法如果你重写了，必须调用父类对于该方法的实现，如 super.xxx();
 
+
+
+Fragment的创建
+
+FragmentManager fm = getFragmentManager();
+
+FragmentTransaction transaction = fm.beginTransaction();
+
+mContentFragment = new ContentFragment();
+
+transaction.replace(R.id.id_content, mContentFragment);
+
+transaction.commit();
+
 															
