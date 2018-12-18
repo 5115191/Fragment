@@ -51,5 +51,5 @@ mContentFragment = new ContentFragment();
 transaction.replace(R.id.id_content, mContentFragment);
 
 transaction.commit();
-
+  
 															
